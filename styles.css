@@ -4,6 +4,8 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    background-image: url("/googlelogo.png");
+    -webkit-clip-path: inset(0% 0% 0% 0%);
 }
 .search{
     background: #ffffff;
@@ -32,7 +34,7 @@
     font-weight: 100;
 }
 #app-img {
-    -webkit-clip-path: inset(30px 10px 30px 10px);
+    -webkit-clip-path: inset(38px 350px 6px 139px);
     clip-path: inset(38px 350px 6px 139px);
     position: absolute;
     right: -358px;
@@ -41,7 +43,7 @@
     filter: alpha(opacity=50);
 }
 #search-img {
-    -webkit-clip-path: inset(30px 10px 30px 10px);
+    -webkit-clip-path: inset(50% 49% 21% 47%);
     clip-path: inset(50% 49% 21% 47%);
     position: relative;
     right: 45%;
